@@ -1,0 +1,76 @@
+
+.container_set {
+    padding: 20px;
+}
+
+.summary {
+    position: relative;
+    width: 750px;
+    background: white;
+    top: 25%;
+    left: 10%;
+}
+  
+.visuals {
+    position: relative;
+    width: 400px;
+    background: white;
+    top: 25%;
+    right: 10%;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 45%;
+    max-width: 45%;
+}
+.large-image {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+
+
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: steelblue;
+}
+      
+
+.sidenav {
+    padding-top: 20px;
+    background-color: white;
+    height: 100%;
+}
+
+.container_set .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.container_set .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.dataframe-table-table-striped {
+    top : 90%;
+    right: 15%;
+
+}
+
+      
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+          height: auto;
+          padding: 15px;
+    }}

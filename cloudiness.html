@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-  <title>Latitude</title>
+  <title>Cloudiness</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -43,37 +43,31 @@
     </div>
   </div>
 </nav>
-  
+
 <main>
-
-
     <div class="container_set">
-      <div class="row mt-5">
+        <div class="row mt-5">
             <div class="col-lg-8" style="background-color: white">
-                <div class = "summary"
-                    <h2 class="fw-normal"> <span style = "font-size: 28px"> <strong> Latitude vs. X </strong> </span></h2>
-                    <hr class="my-4">
-                    <img class = large-image align="left" src="assets/images/lat_vs_temp.png"></img>
-                    <p class="lead">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                    <br>
-                    <p class="lead">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.</p>
-                </div>
-            </div>
-            <div class="col-lg-4" style="background-color: white">
-                <div class="visual">
-                    <h2 class = "fw-normal"> <strong> Visualizations: </strong> </h2>
-                    <hr class="my-4">
-                    <a  href="temperature.html"><img align="left" src="assets/images/lat_vs_temp.png"></img></a> 
-                    <a  href="humidity.html"><img align= "right" src="assets/images/lat_vs_hum.png" href="humidity.html"></img></a>
-                    <a  href="cloudiness.html"><img align="left" src="assets/images/lat_vs_cloud.png" href="cloudiness.html"></img></a>
-                    <a  href="windspeed.html"><img align="right" src="assets/images/lat_vs_wind.png" href="windspeed.html"></img></a>
-                </div>
+              <h2 class="fw-normal">Cloudiness</h2>
+              <div class="row">
+                  <img class="big-image" align="left" src = "assets/images/lat_vs_cloud.png">
+              </div>
+              <div class="row">
+                  <p>As indicated by the figure above, there is little correlation between latitude and cloudiness. This conveys that cloudiness is not dependent on latitude, and other factors influence a city's levels of cloudiness. </p>
+              </div>
             </div>
         </div>
-  
+        <div class="col-lg-4" style="background-color: white">
+            <div class="visual">
+                <h2 class = "fw-normal"> <strong> Visualizations: </strong> </h2>
+                <hr class="my-4">
+                <a  href="temperature.html"><img align="left" src="assets/images/lat_vs_temp.png"></img></a> 
+                <a  href="humidity.html"><img align= "right" src="assets/images/lat_vs_hum.png" href="humidity.html"></img></a>
+                <a  href="cloudiness.html"><img align="left" src="assets/images/lat_vs_cloud.png" href="cloudiness.html"></img></a>
+                <a  href="windspeed.html"><img align="right" src="assets/images/lat_vs_wind.png" href="windspeed.html"></img></a>
+            </div>
+        </div>
     </div>
-  
-  </main>
-  
-</body>
-</html>
+
+</main>
+
